@@ -22,7 +22,7 @@
       <h3><a href="{{ .RelPermalink }}">{{ if .Draft }}<i>(Draft)</i> {{ end }}{{ .Title }}</a></h3>
       <div class="title-list-date">
         {{- if eq .Date.IsZero false }}
-          <time>{{ .Date.Format "Monday, January 2, 2006" }}</time>
+          <time>{{ .Date.Format "02.01.2006" }}</time>
         {{- end }}
         {{- if (and (eq .Lastmod.IsZero false) (ne .Lastmod .Date)) }}
           (updated)

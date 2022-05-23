@@ -43,7 +43,7 @@ figure.color-adapting-image img {
 
 .header {
 	background-color: rgb(40, 40, 40); /* still want a background color before the image loads */
-	background-image: url(../../images/header-bg-dark.jpg);
+	background-image: url(../../images/F34_default_wallpaper_night.jpg);
 }
 
 .main {
